@@ -1,5 +1,4 @@
 const express = require("express");
-console.log(process.env)
 require("dotenv").config();
 
 const connectDb = require("./db/connect");
